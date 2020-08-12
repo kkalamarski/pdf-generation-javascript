@@ -1,0 +1,44 @@
+#pdfDoc {
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.pdf-table {
+  border-radius: 5px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.pdf-table td,
+.pdf-table th {
+  padding: 8px;
+}
+
+.pdf-table td {
+  border-right: 1px solid #f8f8f8;
+}
+
+.pdf-table thead th {
+  color: #ffffff;
+  background: #4fc3a1;
+}
+
+.pdf-table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.pdf-table tr:nth-child(even) {
+  background: #f8f8f8;
+}

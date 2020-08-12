@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF generation of frontend</title>
+    <link href="./src/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <button id="generatePdf">Genetate PDF</button>
+
+    <div id="pdfDoc">
+      <h1>PDF Document title</h1>
+      <h3>Subtitle</h3>
+      <img src="./src/cat.jpg" alt="cat" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorem
+        consequatur modi deleniti soluta assumenda recusandae omnis architecto
+        saepe voluptates praesentium, atque ut illum similique! Perferendis
+        dolore amet beatae asperiores.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorem
+        consequatur modi deleniti soluta assumenda recusandae omnis architecto
+        saepe voluptates praesentium, atque ut illum similique! Perferendis
+        dolore amet beatae asperiores.
+      </p>
+
+      <div>
+        <table class="pdf-table">
+          <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Content 1</td>
+                <td>Content 1</td>
+                <td>Content 1</td>
+                <td>Content 1</td>
+                <td>Content 1</td>
+            </tr>
+            <tr>
+                <td>Content 2</td>
+                <td>Content 2</td>
+                <td>Content 2</td>
+                <td>Content 2</td>
+                <td>Content 2</td>
+            </tr>
+            <tr>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <script src="./src/index.ts"></script>
+  </body>
+</html>
