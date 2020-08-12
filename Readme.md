@@ -73,8 +73,12 @@ const pdfDocument = document.querySelector<HTMLDivElement>("#pdfDoc");
 ```
 
 `generateBtn` is a reference to a button that will trigger the generation process
+<<<<<<< HEAD
 
-`pdfDocument` is a reference to div containing the elements that we want to print as PDF
+=======
+
+> > > > > > > 24f4623672c156dbd39fc9c5f90bf0ad57bd0f2d
+> > > > > > > `pdfDocument` is a reference to div containing the elements that we want to print as PDF
 
 > Tip: you can use Ref objects in react and `this.$refs` in Vue  
 >  instead of `document.querySelector`
