@@ -23,7 +23,7 @@ So, is it even possible to programmatically generate PDF file using web technolo
 
 ## PDF Generation using Client Side Javascript
 
-As developers, we very often take advantage of already existing solutions. It this case it’s also applicable. We don’t need to reinvent the wheel. We will use two well-established javascript libraries - `html2canvas` and `jsPDF` to get the job done. Let’s start with something basic.
+As developers, we very often take advantage of already existing solutions. In this case it’s also applicable. We don’t need to reinvent the wheel. We will use two well-established javascript libraries - `html2canvas` and `jsPDF` to get the job done. Let’s start with something basic.
 
 The idea is to “screenshot” the part of the page that we want to print and then insert it into the PDF file.
 
@@ -73,12 +73,8 @@ const pdfDocument = document.querySelector<HTMLDivElement>("#pdfDoc");
 ```
 
 `generateBtn` is a reference to a button that will trigger the generation process
-<<<<<<< HEAD
 
-=======
-
-> > > > > > > 24f4623672c156dbd39fc9c5f90bf0ad57bd0f2d
-> > > > > > > `pdfDocument` is a reference to div containing the elements that we want to print as PDF
+`pdfDocument` is a reference to div containing the elements that we want to print as PDF
 
 > Tip: you can use Ref objects in react and `this.$refs` in Vue  
 >  instead of `document.querySelector`
